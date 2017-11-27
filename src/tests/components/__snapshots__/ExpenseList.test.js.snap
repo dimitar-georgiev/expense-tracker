@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`print No expenses when no expenses provided 1`] = `
+<div>
+  <p>
+    No expenses
+  </p>
+</div>
+`;
+
+exports[`render ExpensesList 1`] = `
+<div>
+  <ExpenseListItem
+    amount={0}
+    createdAt={0}
+    description="Test Description Edno"
+    id={1}
+    key="1"
+    note=""
+  />
+  <ExpenseListItem
+    amount={787}
+    createdAt={-345600000}
+    description="Test Description Dve"
+    id={2}
+    key="2"
+    note="Test 2 Note"
+  />
+  <ExpenseListItem
+    amount={147}
+    createdAt={345600000}
+    description="Test Description Tri"
+    id={3}
+    key="3"
+    note=""
+  />
+</div>
+`;
